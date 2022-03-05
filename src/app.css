@@ -1,25 +1,30 @@
 @import './assets/reset.css';
 
 :root {
-  --main-color: brown;
+  --main-color: #4f535d;
   --link-color: #0076df;
   font-size: 12px;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif;
 }
 
 h1 {
   font-size: 3rem;
+  margin: 1.2rem 0;
 }
 
 h2 {
   font-size: 2.5rem;
+  margin: 0.8rem 0;
 }
 
 h3 {
   font-size: 2rem;
+  margin: 0.6rem 0;
 }
 
 p {
   font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
 
 a {
