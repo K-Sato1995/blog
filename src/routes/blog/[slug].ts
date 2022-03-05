@@ -15,7 +15,6 @@ posts
   .forEach((post) => lookup.set(post.slug, post))
 
 export function get({ params }) {
-  console.log(params.slug)
   const slug = params.slug.toLowerCase();
 
   if (lookup.has(slug)) {
