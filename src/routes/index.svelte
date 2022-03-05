@@ -54,3 +54,6 @@
     </a>
   </li>
 {/each}
+
+<style>
+</style>
