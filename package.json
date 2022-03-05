@@ -9,7 +9,8 @@
     "prepare": "svelte-kit sync",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "md-to-json": "node ./scripts/markdownToJSON.cjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -19,6 +20,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-no-jp": "^1.0.3",
     "eslint-plugin-svelte3": "^3.2.1",
+    "markdown-json": "^1.6.1",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.10.1",

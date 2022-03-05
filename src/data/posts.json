@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "markdown-json",
+    "cwd": "./",
+    "src": "/Users/katsuki/WorkSpace/Svelte/blog/content",
+    "filePattern": "**/*.md",
+    "ignore": "*(icon|input)*",
+    "dist": "/Users/katsuki/WorkSpace/Svelte/blog/src/data/posts.json",
+    "metadata": true,
+    "version": "1.6.1"
+  },
+  "data": [
+    {
+      "id": "blog-title__index",
+      "contents": "<h2 id=\"snarkdown\">Snarkdown</h2>\n<p><img src=\"http://emojipop.net/data/images/emoji_set_77.png\" alt=\"snarkdown\"></p>\n<p><em><a href=\"http://github.com/developit/snarkdown\">Snarkdown</a></em> is <strong>easy</strong> to <code>use</code>!</p>\n<p>Here&#39;s an <a href=\"#example\"><strong>important</strong> anchor link</a>.</p>\n<p>Two newlines creates a line break.</p>\n<p>Or, end a line with two spaces.<br>Just like that!</p>\n<h2 id=\"code--poetry\">Code &amp; Poetry</h2>\n<pre><code>You can also indent\nblocks to display\ncode or poetry.\n\nIndented code/poetry blocks  \ncan be hard-wrapped.</code></pre><p><strong>Or, wrap your code in three backticks:</strong></p>\n<pre><code class=\"language-JavaScript\">function codeBlocks() {\n    return &#39;Can be inserted&#39;;\n}</code></pre>\n<h3 id=\"block-quotes\">Block Quotes</h3>\n<blockquote>\n<p>You can insert quotes by\npreceeding each line with <code>&gt;</code>.</p>\n<p>Blockquotes can also contain line<br>breaks.</p>\n</blockquote>\n<h2 id=\"lists\">Lists</h2>\n<ul>\n<li>Unordered</li>\n<li>Lists</li>\n<li>Of mixed type</li>\n</ul>\n<ol>\n<li>Ordered</li>\n<li>Lists</li>\n<li>Numbers are ignored</li>\n</ol>\n",
+      "title": "Test Title",
+      "date": "2022-03-05T00:00:00.000Z",
+      "isCompleted": true,
+      "slug": "test-slug",
+      "tags": [
+        "test-tag"
+      ],
+      "excerpt": "<p><em><a href=\"http://github.com/developit/snarkdown\">Snarkdown</a></em> is <strong>easy</strong> to <code>use</code>!</p>",
+      "meta": {
+        "relativePath": "blog-title/index.html",
+        "createdAt": "2022-03-05T12:44:36.223Z",
+        "lastModified": "2022-03-05T12:44:36.223Z",
+        "size": 887,
+        "formattedSize": "887 Bytes"
+      }
+    }
+  ]
+}
