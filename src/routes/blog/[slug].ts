@@ -16,7 +16,6 @@ posts
 
 export function get({ params }) {
   const slug = params.slug.toLowerCase();
-
   if (lookup.has(slug)) {
     return {
       body: { post: lookup.get(slug) },

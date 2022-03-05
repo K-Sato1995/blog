@@ -1,6 +1,7 @@
 ---
 title: Blog post
 date: 2022-03-06
+description: Needed for SEO
 isCompleted: true
 slug: blog-post
 tags: [test-tag]

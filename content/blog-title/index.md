@@ -1,6 +1,7 @@
 ---
 title: Test Title
 date: 2022-03-05
+description: Neded for SEO
 isCompleted: true
 slug: test-slug
 tags: [test-tag]
