@@ -44,6 +44,8 @@
 
 <h1>Hello and welcome to my site!</h1>
 <h2>BasePath: {envVariables.basePath}</h2>
+<h3>Heading 3</h3>
+<p>Loren ipsomkfjsalfjadl</p>
 
 {#each posts as post}
   <li>

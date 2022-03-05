@@ -1,0 +1,33 @@
+@import './assets/reset.css';
+
+:root {
+  --main-color: brown;
+  --link-color: #0076df;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  color:var(--link-color);
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #000a13;
+}
