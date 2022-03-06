@@ -7,7 +7,7 @@
   const meta = {
     title: `${post.title} | K-Sato`,
     description: post.description ?? post.title,
-    url: `${envVariables.basePath}/blog/${post.slug}`,
+    url: `/blog/${post.slug}`,
     image: {
       url: "",
       width: post.image ? post.image.width : 1000,
@@ -46,7 +46,6 @@
     imageAlt: meta.image.alt,
   }}
 />
-<!-- http://localhost:3000/blog/test-slug -->
 <h1>Post</h1>
 <h2>{post.title}</h2>
 
