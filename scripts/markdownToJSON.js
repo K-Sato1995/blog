@@ -1,9 +1,10 @@
-"use strict";
-const mdToJSON = require("markdown-json");
-const path = require('path');
+import mdToJSON from 'markdown-json'
+import path from 'path'
+import { Remarkable  } from 'remarkable';
 
-const contentPath = path.resolve(__dirname, '../content')
-const outputPath = path.resolve(__dirname, '../src/data/posts.json')
+const __dirname = path.resolve();
+const contentPath = path.join(__dirname, '/content')
+const outputPath = path.join(__dirname, '/src/data/posts.json')
 
 const setting = {
     name: 'markdown-json',

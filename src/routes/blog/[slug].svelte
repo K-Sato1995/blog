@@ -2,7 +2,7 @@
   export let post;
   import SvelteMarkdown from "svelte-markdown";
   import { MetaTags } from "svelte-meta-tags";
-  import { envVariables } from "$lib/envVariables";
+  import "prismjs/themes/prism.css";
 
   const meta = {
     title: `${post.title} | K-Sato`,
@@ -48,5 +48,21 @@
 />
 <h1>Post</h1>
 <h2>{post.title}</h2>
+{@html post.contents}
 
-<SvelteMarkdown source={post.contents} />
+<!-- <SvelteMarkdown
+  source={post.contents}
+  options={{
+    highlight: (code, language) => {
+      console.log(code);
+      console.log(language);
+      alert(code);
+      return prism.highlight(code, prism.languages[language]);
+    },
+    langPrefix: "hljs language-",
+  }}
+/> -->
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Questrial);
+  @import url(https://fonts.googleapis.com/css?family=Arvo);
+</style>

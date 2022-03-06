@@ -14,7 +14,7 @@ const lookup: Map<string, any> = new Map();
 posts
   .forEach((post) => lookup.set(post.slug, post))
 
-export function get({ params }) {
+export async function get({ params }) {
   const slug = params.slug.toLowerCase();
   if (lookup.has(slug)) {
     return {
