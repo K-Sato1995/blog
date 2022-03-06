@@ -4,7 +4,6 @@ const posts = Object.values(data)
   .map((post) => ({
     slug: post.slug,
     title: post.title,
-    contents: post.contents
   }));
 
 

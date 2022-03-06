@@ -32,7 +32,7 @@ function codeBlocks() {
 tests
 
 ```typescript
-function codeBlocks(): string {
+function codeBlocks():string {
     return 'Can be inserted';
 }
 ```
