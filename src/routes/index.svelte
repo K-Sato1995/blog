@@ -49,7 +49,7 @@
 
 {#each posts as post}
   <li>
-    <a href={`${envVariables.basePath}/blog/${post.slug}`}>
+    <a href={`/blog/${post.slug}`}>
       {post.title}
     </a>
   </li>
