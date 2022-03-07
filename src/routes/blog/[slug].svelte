@@ -1,22 +1,17 @@
 <script lang="ts">
-  export let post;
+  export let post: Post;
   import { MetaTags } from "svelte-meta-tags";
 
   const meta = {
     title: `${post.title} | K-Sato`,
     description: post.description ?? post.title,
     url: `/blog/${post.slug}`,
-    image: {
-      url: "",
-      width: post.image ? post.image.width : 1000,
-      height: post.image ? post.image.height : 523,
-      alt: post.title,
-    },
     siteName: "K-Sato",
     author: "K-Sato",
   };
 </script>
 
+<!-- TODO: SET IMAGE FOR OpenGraph and Twitter -->
 <MetaTags
   title={meta.title}
   description={meta.description}
@@ -26,11 +21,6 @@
       authors: [meta.author],
     },
     description: meta.description,
-    images: [
-      {
-        ...meta.image,
-      },
-    ],
     site_name: meta.siteName,
     title: meta.title,
     type: "article",
@@ -40,8 +30,6 @@
     cardType: "summary_large_image",
     title: meta.title,
     description: meta.description,
-    image: meta.image.url,
-    imageAlt: meta.image.alt,
   }}
 />
 
