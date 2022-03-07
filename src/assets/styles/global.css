@@ -1,5 +1,5 @@
 @import './reset.css';
-@import 'highlight.js/styles/github.css';
+@import 'highlight.js/styles/vs2015.css';
 
 :root {
   --main-color: #333;
@@ -38,4 +38,9 @@ a {
 
 a:hover {
   color: #000a13;
+}
+
+pre { 
+  white-space: pre-wrap;
+
 }
