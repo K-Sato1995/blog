@@ -6,34 +6,39 @@
   --secondary--color: #6A7281;
   --link-color: #0076df;
   --border-color: #e5e7eb;
-  font-size: 12px;
+  font-size: 16px;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 600;
   margin: 1.2rem 0;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin: 0.8rem 0;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.17rem;
+  font-weight: 600;
   margin: 0.6rem 0;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  display: block;
   margin: 0.5rem 0;
+  line-height: 1.5;
 }
 
 a {
   color:var(--link-color);
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -42,5 +47,13 @@ a:hover {
 
 pre { 
   white-space: pre-wrap;
+}
 
+ul {
+  list-style: circle;
+  list-style-type: disc;
+}
+
+ul li {
+  font-size: 1rem;
 }

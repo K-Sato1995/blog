@@ -9,7 +9,7 @@ tags: [test-tag]
 
 # Table of contents
 
-1. [What is a getter method](#what-is-a-getter-method)
+- [What is a getter method](#what-is-a-getter-method)
 - [What is a setter method](#what-is-a-setter-method)
 - [What are accessors?](#what-are-accessors?)
 - [References](#references)

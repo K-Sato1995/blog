@@ -9,7 +9,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint --ignore-path .gitignore .",
-    "md-to-json": "node ./scripts/markdownToJSON.cjs"
+    "md-to-json": "node ./scripts/markdownToJSON.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
