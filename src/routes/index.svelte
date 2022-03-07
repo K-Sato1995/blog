@@ -2,6 +2,8 @@
   export let posts;
   import { envVariables } from "$lib/envVariables";
   import { MetaTags } from "svelte-meta-tags";
+  import PostList from "$lib/components/PostList.svelte";
+  import PostItem from "$lib/components/Post.svelte";
 
   const meta = {
     title: "Home | K-Sato",
@@ -42,18 +44,11 @@
   }}
 />
 
-<h1>Hello and welcome to my site!</h1>
-<h2>BasePath: {envVariables.basePath}</h2>
-<h3>Heading 3</h3>
-<p>Loren ipsomkfjsalfjadl</p>
-
-{#each posts as post}
-  <li>
-    <a href={`/blog/${post.slug}`}>
-      {post.title}
-    </a>
-  </li>
-{/each}
+<PostList>
+  {#each posts as post}
+    <PostItem {post} />
+  {/each}
+</PostList>
 
 <style>
 </style>

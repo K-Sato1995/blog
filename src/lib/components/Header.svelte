@@ -31,19 +31,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    list-style: none;
   }
 
   .header__links_item {
     margin-left: 1rem;
   }
 
+  .header__links_item:last-child {
+    margin-right: 1rem;
+  }
+
   .header__links__item__link {
     padding-bottom: 1rem;
-    color: var(--secondary--color);
+    color: var(--secondary-color);
     text-decoration: none;
   }
 
   .header__links__item__link:hover {
-    border-bottom: 1.5px solid var(--secondary--color);
+    border-bottom: 1.5px solid var(--secondary-color);
   }
 </style>

@@ -1,7 +1,7 @@
 ---
 title: Ruby Getters and Setters
 date: 2022-03-05
-description: Neded for SEO
+description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 isCompleted: true
 slug: ruby-getters-and-setters
 tags: [test-tag]

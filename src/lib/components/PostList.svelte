@@ -1,3 +1,7 @@
-<div class="post-list" />
+<div class="post-list">
+  <slot />
+</div>
 
-<style></style>
+<style>
+  /* .post-list {} */
+</style>
