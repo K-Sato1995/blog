@@ -9,7 +9,9 @@
     <li class="footer__links_item">
       <a href="/projects" class="footer__links__item__link">Projects</a>
     </li>
-
+    <li class="footer__links_item">
+      <a href="/rss.xml" class="footer__links__item__link">RSS Feed</a>
+    </li>
     <li class="footer__links_item">
       <span class="footer__copy-right">© 2021 K-Sato</span>
     </li>
