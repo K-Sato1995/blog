@@ -1,9 +1,9 @@
 ---
-title: Created my blog with Sveltekit
+title: New blog made with Sveltekit
 date: 2022-03-08
 description: I created this blog with sveltekit. And the development experience was amazing.
 isCompleted: true
-slug: created-my-blog-with-sveltekit
+slug: new-blog-made-with-sveltekit
 tags: [svelte, sveltekit, vercel, vite]
 ---
 
