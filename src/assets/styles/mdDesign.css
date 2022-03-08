@@ -54,38 +54,38 @@
   margin-bottom: 0; 
 }
 
-.post-detail__content table {
+table {
   padding: 0;border-collapse: collapse;
 }
-.post-detail__content table tr {
+table tr {
   border-top: 1px solid #cccccc;
   background-color: white;
   margin: 0;
   padding: 0; 
 }
 
-.post-detail__content table tr:nth-child(2n) {
-  background-color: #f8f8f8; 
+table tr:nth-child(2n) {
+  background-color: #f6f8fa; 
 }
 
-.post-detail__content table tr th {
+table tr th {
   font-weight: bold;
   border: 1px solid #cccccc;
   margin: 0;
   padding: 6px 13px; 
 }
 
-.post-detail__content table tr td {
+table tr td {
   border: 1px solid #cccccc;
   margin: 0;
   padding: 6px 13px; 
 }
 
-.post-detail__content table tr th :first-child, table tr td :first-child {
+table tr th :first-child, table tr td :first-child {
   margin-top: 0; 
 }
 
-.post-detail__content table tr th :last-child, table tr td :last-child {
+table tr th :last-child, table tr td :last-child {
   margin-bottom: 0; 
 }
 
@@ -96,24 +96,28 @@
 }
 
 
-.post-detail__content code, tt {
+/* #F6F8FA */
+code, tt {
   margin: 0 2px;
   padding: 0 5px;
   border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
+  background-color: #f6f8fa;
   border-radius: 3px;
 }
 
-.post-detail__content pre code {
+pre code {
   margin: 0;
   padding: 0;
   border: none;
   background: transparent; 
 }
 
-.post-detail__content .highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
+.hljs {
+  background-color: #f6f8fa !important;
+}
+
+.highlight pre {
+  background-color: #f6f8fa;
   font-size: 13px;
   line-height: 19px;
   overflow: auto;
@@ -121,9 +125,10 @@
   border-radius: 3px; 
 }
 
-.post-detail__content pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
+pre {
+  /* box-shadow: 0 5px 20px rgb(46 53 64 / 20%), 0 1px 5px rgb(46 53 64 / 30%); */
+  background-color: #f6f8fa;
+  border: 1px solid #ccc;
   font-size: 13px;
   line-height: 19px;
   overflow: auto;
@@ -131,7 +136,7 @@
   border-radius: 3px; 
 }
 
-.post-detail__content pre code, pre tt {
+pre code, pre tt {
   background-color: transparent;
   border: none; 
 }
