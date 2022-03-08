@@ -6,12 +6,10 @@
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<Header />
-
 <Container>
+  <Header />
   <Content>
     <slot />
   </Content>
+  <Footer />
 </Container>
-
-<Footer />

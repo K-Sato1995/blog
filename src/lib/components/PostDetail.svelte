@@ -23,6 +23,7 @@
 <style>
   .post-detail {
     padding: 1rem;
+    margin-top: 1rem;
   }
 
   .post-detail__top {

@@ -1,6 +1,6 @@
 <svelte:head>
-  <title>About</title>
+  <title>K-Sato | About</title>
 </svelte:head>
 
-<h1>About this site</h1>
-<p>TODO...</p>
+<h1>Hello World</h1>
+<p>About me</p>

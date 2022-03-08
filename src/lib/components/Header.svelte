@@ -8,14 +8,14 @@
       <a href="/about" class="header__links__item__link">About</a>
     </li>
     <li class="header__links_item">
-      <a href="/creations" class="header__links__item__link">Projects</a>
+      <a href="/projects" class="header__links__item__link">Projects</a>
     </li>
   </ul>
 </nav>
 
 <style>
   .header {
-    height: 4rem;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -27,7 +27,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
-    line-height: 4.2rem;
+    line-height: 6.2rem;
   }
 
   .header__links {

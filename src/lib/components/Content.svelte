@@ -2,7 +2,6 @@
 
 <style>
   .content {
-    max-width: 768px;
     padding: 1rem;
   }
 </style>
