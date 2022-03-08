@@ -1,6 +1,7 @@
 ## Blog
-![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
+Build with [Sveltekit](https://kit.svelte.dev/)
 
+![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
 
 ## Link
 
