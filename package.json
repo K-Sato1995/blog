@@ -12,6 +12,7 @@
     "md-to-json": "node ./scripts/markdownToJSON.js"
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "next",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "^1.0.0-next.28",
     "@sveltejs/kit": "1.0.0-next.291",
