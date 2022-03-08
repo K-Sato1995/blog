@@ -9,6 +9,12 @@
     url: `/blog/${post.slug}`,
     siteName: "K-Sato",
     author: "K-Sato",
+    image: {
+      url: "background.jpeg",
+      width: 1000,
+      height: 523,
+      alt: "k-sato-image",
+    },
   };
 </script>
 
@@ -21,6 +27,11 @@
     article: {
       authors: [meta.author],
     },
+    images: [
+      {
+        ...meta.image,
+      },
+    ],
     description: meta.description,
     site_name: meta.siteName,
     title: meta.title,
@@ -31,6 +42,8 @@
     cardType: "summary_large_image",
     title: meta.title,
     description: meta.description,
+    image: meta.image.url,
+    imageAlt: meta.image.alt,
   }}
 />
 

@@ -11,7 +11,7 @@
     url: envVariables.basePath,
     siteName: "K-Sato",
     image: {
-      url: "images/background.jpeg",
+      url: "background.jpeg",
       width: 1000,
       height: 523,
       alt: "k-sato-image",
