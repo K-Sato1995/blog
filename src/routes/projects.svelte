@@ -188,7 +188,7 @@
   }
 
   .projects-container__more {
-    margin-top: 3rem;
+    margin-top: 1rem;
     color: var(--secondary-color);
   }
 </style>
