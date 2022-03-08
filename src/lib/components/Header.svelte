@@ -15,19 +15,19 @@
 
 <style>
   .header {
-    /* border: solid 1px; */
     height: 4rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
+
   .header__title {
     margin-left: 1rem;
     color: var(--main-color);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
-    line-height: 4rem;
+    line-height: 4.2rem;
   }
 
   .header__links {

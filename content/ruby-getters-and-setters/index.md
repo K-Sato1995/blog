@@ -11,7 +11,7 @@ tags: [test-tag]
 
 ## Getter OverView
  __A getter method__ is a method that _gets_ a value of an instance variable.
- Without a getter method, you can not retrieve a value of an instance variable outside the class the instance variable is instantiated from.
+ Without a getter method,`code hre` you can not retrieve a value of an instance variable outside the class the instance variable is instantiated from.
 
 ### Protip(1)
 

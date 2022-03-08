@@ -17,6 +17,7 @@
   .post-item {
     border-bottom: solid 1px var(--border-color);
     padding: 1rem 0;
+    line-height: 1.6;
   }
   .post-item__date {
     color: var(--secondary-color);
