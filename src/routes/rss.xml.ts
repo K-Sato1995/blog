@@ -29,7 +29,7 @@ const xml =
           `
         <item>
           <title>${post.title}</title>
-          <description>A blog built with SvelteKit about tech and stuff!</description>
+          <description>${post.description}</description>
           <link>${envVariables.basePath}/blog/${post.slug}/</link>
           <pubDate>${new Date(post.date)}</pubDate>
           <content:encoded>

@@ -21,7 +21,7 @@ So I tried it out.
 
 There are already many posts about [Svelte](https://svelte.dev/) by other people and reading the official document should be enough to start making stuff with it.
 
-The syntax was very straightforward and liked it a lot.
+The syntax was very straightforward and I liked it a lot.
 
 ## Sveltekit
 
@@ -33,7 +33,7 @@ According to the [official document](https://kit.svelte.dev/),
 
 Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
 
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous. I can't go back to `webpack` or `rollup` anymore.......
+This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
 
 ## Hosting
 
