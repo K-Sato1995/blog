@@ -15,16 +15,19 @@
 
 <style>
   .header {
-    border: solid 1px;
+    /* border: solid 1px; */
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
   .header__title {
+    margin-left: 1rem;
     color: var(--main-color);
     text-decoration: none;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
   }
 
   .header__links {
@@ -43,7 +46,7 @@
   }
 
   .header__links__item__link {
-    padding-bottom: 1rem;
+    padding-bottom: 0.2rem;
     color: var(--secondary-color);
     text-decoration: none;
   }
