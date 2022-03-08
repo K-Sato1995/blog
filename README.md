@@ -9,12 +9,10 @@ https://www.k-sato-0130.com/
 
 ## Light House
 
-### Desktop
-
-<img width="649" alt="image" src="https://user-images.githubusercontent.com/32632542/157173779-3b69ed93-b8d7-4c08-a581-ec89f678335a.png">
-
-### Mobile
 
 
-<img width="686" alt="image" src="https://user-images.githubusercontent.com/32632542/157173644-fdc34f53-dace-43c0-be03-aae240c5ff3e.png">
+<img width="818" alt="image" src="https://user-images.githubusercontent.com/32632542/157196010-def94db3-6218-4dca-8bbd-2a16baca754b.png">
 
+
+
+- [Current Reult Here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.k-sato-0130.com%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
