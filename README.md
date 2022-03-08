@@ -1,40 +1,19 @@
-# create-svelte
+## Blog
+![image](https://user-images.githubusercontent.com/32632542/157171355-6345e6bf-420a-45ca-a0ec-83e0a7d924ef.png)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+## Link
 
-If you're seeing this, you've probably already done this step. Congrats!
+https://www.k-sato-0130.com/
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Light House
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+### Desktop
 
-> Note: the `@next` is temporary
+<img width="649" alt="image" src="https://user-images.githubusercontent.com/32632542/157173779-3b69ed93-b8d7-4c08-a581-ec89f678335a.png">
 
-## Developing
+### Mobile
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/32632542/157173644-fdc34f53-dace-43c0-be03-aae240c5ff3e.png">
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
