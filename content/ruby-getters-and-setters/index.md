@@ -7,13 +7,6 @@ slug: ruby-getters-and-setters
 tags: [test-tag]
 ---
 
-# Table of contents
-
-- [What is a getter method](#what-is-a-getter-method)
-- [What is a setter method](#what-is-a-setter-method)
-- [What are accessors?](#what-are-accessors?)
-- [References](#references)
-
 # What is a getter method?
 
 ## Getter OverView

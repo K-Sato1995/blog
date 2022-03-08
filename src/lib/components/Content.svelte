@@ -2,8 +2,7 @@
 
 <style>
   .content {
-    /* border: solid 1px; */
     max-width: 768px;
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 </style>

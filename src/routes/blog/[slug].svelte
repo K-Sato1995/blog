@@ -1,6 +1,7 @@
 <script lang="ts">
   export let post: Post;
   import { MetaTags } from "svelte-meta-tags";
+  import PostDetail from "$lib/components/PostDetail.svelte";
 
   const meta = {
     title: `${post.title} | K-Sato`,
@@ -33,8 +34,4 @@
   }}
 />
 
-<main>
-  <h1>Post</h1>
-  <h2>{post.title}</h2>
-  {@html post.body}
-</main>
+<PostDetail {post} />
