@@ -22,6 +22,9 @@
     <li class="about-container__links__link">
       <a href="https://zenn.dev/k_sato">Zenn</a>
     </li>
+    <li class="about-container__links__link">
+      <a href="https://www.wantedly.com/id/k_sato_bb">Wantedly</a>
+    </li>
   </ul>
 </div>
 
