@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { MetaTags } from "svelte-meta-tags";
+  import { envVariables } from "$lib/envVariables";
+
   type Lang = "TypeScript" | "JavaScript" | "Ruby" | "Go";
   type FrameWork = "Svelte" | "React" | "Sveltekit" | "Rails";
   type OtherTechStack = "GithubAction" | "GraphQL" | "ESLint";
@@ -66,11 +69,45 @@
       link: "https://github.com/K-Sato1995/my_journey_of_go",
     },
   ];
+
+  const meta = {
+    title: "Projects | K-Sato",
+    description: "Here are some of my random creations",
+    url: envVariables.basePath,
+    siteName: "K-Sato",
+    image: {
+      url: "background.jpeg",
+      width: 1000,
+      height: 523,
+      alt: "k-sato-image",
+    },
+  };
 </script>
 
-<svelte:head>
-  <title>K-Sato | Projects</title>
-</svelte:head>
+<MetaTags
+  title={meta.title}
+  description={meta.description}
+  canonical={meta.url}
+  openGraph={{
+    description: meta.description,
+    images: [
+      {
+        ...meta.image,
+      },
+    ],
+    site_name: meta.siteName,
+    title: meta.title,
+    type: "website",
+    url: meta.url,
+  }}
+  twitter={{
+    cardType: "summary_large_image",
+    title: meta.title,
+    description: meta.description,
+    image: meta.image.url,
+    imageAlt: meta.image.alt,
+  }}
+/>
 
 <div class="projects-container">
   <h1>Here are some of my random creations</h1>

@@ -1,7 +1,45 @@
-<svelte:head>
-  <title>K-Sato | About</title>
-</svelte:head>
+<script>
+  import { MetaTags } from "svelte-meta-tags";
+  import { envVariables } from "$lib/envVariables";
 
+  const meta = {
+    title: "About | K-Sato",
+    description: "About K-Sato. And Social links.",
+    url: envVariables.basePath,
+    siteName: "K-Sato",
+    image: {
+      url: "background.jpeg",
+      width: 1000,
+      height: 523,
+      alt: "k-sato-image",
+    },
+  };
+</script>
+
+<MetaTags
+  title={meta.title}
+  description={meta.description}
+  canonical={meta.url}
+  openGraph={{
+    description: meta.description,
+    images: [
+      {
+        ...meta.image,
+      },
+    ],
+    site_name: meta.siteName,
+    title: meta.title,
+    type: "website",
+    url: meta.url,
+  }}
+  twitter={{
+    cardType: "summary_large_image",
+    title: meta.title,
+    description: meta.description,
+    image: meta.image.url,
+    imageAlt: meta.image.alt,
+  }}
+/>
 <div class="about-container">
   <h1>About me</h1>
   <p>
