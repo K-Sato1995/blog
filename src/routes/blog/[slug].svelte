@@ -2,6 +2,7 @@
   export let post: Post;
   import { MetaTags } from "svelte-meta-tags";
   import PostDetail from "$lib/components/PostDetail.svelte";
+  import { envVariables } from "$lib/envVariables";
 
   const meta = {
     title: `${post.title} | K-Sato`,
@@ -10,7 +11,7 @@
     siteName: "K-Sato",
     author: "K-Sato",
     image: {
-      url: "background.jpeg",
+      url: `${envVariables.basePath}/background.jpeg`,
       width: 1000,
       height: 523,
       alt: "k-sato-image",
