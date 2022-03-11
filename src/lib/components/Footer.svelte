@@ -1,16 +1,13 @@
 <footer class="footer">
   <ul class="footer__links">
     <li class="footer__links_item">
-      <a href="/" class="footer__links__item__link">Home</a>
-    </li>
-    <li class="footer__links_item">
       <a href="/about" class="footer__links__item__link">About</a>
     </li>
     <li class="footer__links_item">
       <a href="/projects" class="footer__links__item__link">Projects</a>
     </li>
     <li class="footer__links_item">
-      <a href="/rss.xml" class="footer__links__item__link">RSS Feed</a>
+      <a href="/rss.xml" class="footer__links__item__link">RSS</a>
     </li>
     <li class="footer__links_item">
       <span class="footer__copy-right">© 2021 K-Sato</span>
