@@ -49,6 +49,3 @@
     <PostItem {post} />
   {/each}
 </PostList>
-
-<style>
-</style>

@@ -2,7 +2,7 @@
   "name": "blog",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "npm run md-to-json & svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",

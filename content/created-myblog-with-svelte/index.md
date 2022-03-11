@@ -33,11 +33,11 @@ According to the [official document](https://kit.svelte.dev/),
 
 Sveltekit internally uses [Vite](https://vitejs.dev/) as its build tool.
 
-This surely provided the `faster and leaner` experince they promised. The `HMR` was absolutely instantaneous.
+This surely provided the `faster and leaner` experince It promised. The `HMR` was absolutely instantaneous.
 
 ## Hosting
 
-I also tried [[vercel](https://vercel.com/) to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
+I also tried [vercel](https://vercel.com/) to host this blog. Hosting the site was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.
 
 ## Other stuff
 

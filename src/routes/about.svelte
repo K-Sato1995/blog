@@ -66,7 +66,7 @@
           alt="me"
         />
         <p class="about-container__slide-content__first-description">
-          Aspiring web developer. Rediscovering the love for coding and building
+          Aspiring web developer. Rediscovering love for coding and building
           stuff.
         </p>
       </div>
