@@ -27,6 +27,9 @@
     margin: 0.5rem 0;
   }
 
+  .post-item__description {
+    color: var(--secondary-color);
+  }
   .post-item__title__link {
     color: var(--main-color);
     font-size: 1.5rem;

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { MetaTags } from "svelte-meta-tags";
   import { envVariables } from "$lib/envVariables";
-  import { projects } from "../data/projects";
+  import { projects, articles } from "../data/projects";
 
   const meta = {
     title: "Projects | K-Sato",
@@ -44,29 +44,62 @@
 
 <div class="projects-container">
   <h1>Here are some of my random creations</h1>
-
-  <div class="projects-container__contet-wrapper">
-    {#each projects as project}
-      <div class="projects-container__content">
-        <a href={project.link} class="projects-container__content__name"
-          >{project.name}</a
-        >
-        <p class="projects-container__content__description">
-          {project.description}
-        </p>
-        <div class="projects-container__content__techstack">
-          {#each project.techStack as techstack}
-            <div class="projects-container__content__techstack__item">
-              <span
-                class={`projects-container__content__techstack__item__color ${techstack.toLowerCase()}`}
-              /><span class="projects-container__content__techstack__item__name"
-                >{techstack}</span
-              >
-            </div>
-          {/each}
+  <div class="projects-container__github-repos">
+    <h2>GitHub Repos</h2>
+    <div class="projects-container__contet-wrapper">
+      {#each projects as project}
+        <div class="projects-container__content">
+          <a href={project.link} class="projects-container__content__name"
+            >{project.name}</a
+          >
+          <p class="projects-container__content__description">
+            {project.description}
+          </p>
+          <div class="projects-container__content__techstack">
+            {#each project.techStack as techstack}
+              <div class="projects-container__content__techstack__item">
+                <span
+                  class={`projects-container__content__techstack__item__color ${techstack.toLowerCase()}`}
+                /><span
+                  class="projects-container__content__techstack__item__name"
+                  >{techstack}</span
+                >
+              </div>
+            {/each}
+          </div>
         </div>
-      </div>
-    {/each}
+      {/each}
+    </div>
+  </div>
+
+  <p class="projects-container__more">More scraps to come.......</p>
+
+  <div class="projects-container__articles">
+    <h2>Online Posts</h2>
+    <div class="projects-container__contet-wrapper">
+      {#each articles as project}
+        <div class="projects-container__content">
+          <a href={project.link} class="projects-container__content__name"
+            >{project.name}</a
+          >
+          <p class="projects-container__content__description">
+            {project.description}
+          </p>
+          <div class="projects-container__content__techstack">
+            {#each project.techStack as techstack}
+              <div class="projects-container__content__techstack__item">
+                <span
+                  class={`projects-container__content__techstack__item__color ${techstack.toLowerCase()}`}
+                /><span
+                  class="projects-container__content__techstack__item__name"
+                  >{techstack}</span
+                >
+              </div>
+            {/each}
+          </div>
+        </div>
+      {/each}
+    </div>
   </div>
 
   <p class="projects-container__more">More scraps to come.......</p>
@@ -81,6 +114,8 @@
     --github-action-color: #242a2f;
     --ruby-color: #a91500;
     --go-color: #79d4fd;
+    --arch-color: #56c500;
+    --linux-color: #eed440;
   }
   .typescript {
     background-color: var(--typescript-color);
@@ -111,9 +146,24 @@
     background-color: var(--go-color);
     border: 1px solid var(--go-color);
   }
+  .architecture {
+    background-color: var(--arch-color);
+    border: 1px solid var(--arch-color);
+  }
+  .linux {
+    background-color: var(--linux-color);
+    border: 1px solid var(--linux-color);
+  }
+
+  .projects-container__github-repos {
+    margin-top: 3rem;
+  }
+
+  .projects-container__articles {
+    margin-top: 3rem;
+  }
 
   .projects-container__contet-wrapper {
-    margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,7 +174,7 @@
     border-bottom: solid 1px var(--border-color);
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    width: 48%;
+    width: 49%;
   }
 
   @media screen and (max-width: 600px) {

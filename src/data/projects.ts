@@ -1,7 +1,7 @@
 
 type Lang = "TypeScript" | "JavaScript" | "Ruby" | "Go";
 type FrameWork = "Svelte" | "React" | "Sveltekit" | "Rails";
-type OtherTechStack = "GithubAction" | "GraphQL" | "ESLint";
+type OtherTechStack = "GithubAction" | "GraphQL" | "ESLint" | "Architecture" | "Linux";
 
 interface Project {
   name: string;
@@ -65,4 +65,59 @@ export const projects: Project[] = [
       techStack: ["Go"],
       link: "https://github.com/K-Sato1995/my_journey_of_go",
     },
+  ];
+
+
+  export const articles: Project[] = [
+    {
+      name: "Understanding Linux Permissions",
+      description: "Dint't undernd it at first, so looked them up and wrote a post about them",
+      techStack: ["Linux"],
+      link: "https://dev.to/k_penguin_sato/understanding-linux-permissions-397e",
+    },
+    {
+      name: "My Journey of Go",
+      description: "Made a series of posts about learning th Go programming language.",
+      techStack: ["Go"],
+      link: "https://dev.to/k_penguin_sato/my-journey-of-go-functions-variables-12n",
+    },
+    {
+      name: "Ruby Getters and Setters",
+      description: "Explained what getters and stters are in Ruby.",
+      techStack: ["Ruby"],
+      link: "https://dev.to/k_penguin_sato/ruby-getters-and-setters-1p30",
+    },
+    {
+      name: "Understand classes in TypeScript",
+      description: "Explained how classes work in TypeScript in plain English.",
+      techStack: ["TypeScript"],
+      link: "https://dev.to/k_penguin_sato/understand-how-classes-work-in-typescript-3ce0",
+    },
+    {
+      name: "Svelteの根本部分を簡単に理解する",
+      description: "Svelteとはそもそも何かの基本部分を簡単に説明できたらな〜と思い書いた。",
+      techStack: ["Svelte"],
+      link: "https://qiita.com/k-penguin-sato/items/3a85f89bf193b63ed740",
+    },
+    {
+      name: "Generics(ジェネリックス)を理解する",
+      description: "TypeScriptのGenericsを誰でも簡単に理解できる様書いた。",
+      techStack: ["TypeScript"],
+      link: "https://qiita.com/k-penguin-sato/items/9baa959e8919157afcd4",
+    },
+
+
+    {
+      name: "Opaque型を用いたより強力な型構成",
+      description: "どんな文字列にも単にstringではなく、それぞれ意味を持たせるにはどうするんだ？と思い調べて書いた。",
+      techStack: ["TypeScript"],
+      link: "https://qiita.com/k-penguin-sato/items/0adb0d9df35d96d04b1c",
+    },
+    {
+      name: "自分なりにSOLIDの原則を理解する",
+      description: "SOLIDの原則を可能な限り簡単に自分に説明してみた。",
+      techStack: ["Architecture"],
+      link: "https://qiita.com/k-penguin-sato/items/86b8262bfbe189fc72c3",
+    },
+
   ];
