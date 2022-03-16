@@ -4,9 +4,6 @@
       <a href="/about" class="footer__links__item__link">About</a>
     </li>
     <li class="footer__links_item">
-      <a href="/projects" class="footer__links__item__link">Projects</a>
-    </li>
-    <li class="footer__links_item">
       <a href="/rss.xml" class="footer__links__item__link">RSS</a>
     </li>
     <li class="footer__links_item">
