@@ -3,11 +3,13 @@
 }
 
 .post-detail__content h1 {
+  color: var(--main-color);
   line-height: 1.6;
 }
 
 .post-detail__content h2 {
   border-bottom: 1px solid var(--border-color);
+  color: var(--main-color);
   line-height: 1.6;
 }
 
@@ -18,6 +20,7 @@
   line-height: 1.6;
 }
 .post-detail__content p{
+  color: var(--main-color);
   line-height: 1.6;
 }
 
@@ -103,6 +106,7 @@ code, tt {
   border: 1px solid #eaeaea;
   background-color: #f6f8fa;
   border-radius: 3px;
+  color: #FC929E;
 }
 
 pre code {

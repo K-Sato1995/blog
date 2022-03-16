@@ -133,6 +133,7 @@
     margin: 0 auto;
     border: solid 1px var(--border-color);
     border-radius: 50%;
+    background-color: #fff;
   }
 
   .about-container__slide-content__first-description {

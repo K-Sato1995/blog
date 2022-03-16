@@ -32,6 +32,7 @@
   }
 
   .post-detail__top__title {
+    color: var(--main-color);
     padding-bottom: 2rem;
     margin: 0;
   }

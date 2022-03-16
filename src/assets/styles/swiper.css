@@ -1,16 +1,19 @@
 .mySwiper {
   /* border: solid 1px; */
+  background-color: var(--background-color);
 }
 
 .swiper {
   width: 100%;
   /* height: 500px; */
+
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  color: var(--main-color);
+  background-color: var(--background-color);
 }
 
 .swiper-slide img {
