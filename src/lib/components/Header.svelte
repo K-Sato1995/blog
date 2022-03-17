@@ -1,41 +1,8 @@
-<script lang="ts">
-  type Theme = "BASE" | "DARK";
-
-  interface ThemeObj {
-    mainColor: string;
-    backgroundColor: string;
-  }
-
-  let currentTheme: Theme = "BASE";
-
-  const baseTheme: ThemeObj = {
-    mainColor: "#333",
-    backgroundColor: "#fff;",
-  };
-
-  const darkTheme: ThemeObj = {
-    mainColor: "#fff",
-    backgroundColor: "#1e1e1e;",
-  };
-
-  const turnToDarkTheme = () => {
-    currentTheme = "DARK";
-  };
-
-  const mainColor =
-    currentTheme === "BASE" ? baseTheme.mainColor : darkTheme.mainColor;
-
-  const backgroundColor =
-    currentTheme === "BASE"
-      ? baseTheme.backgroundColor
-      : darkTheme.backgroundColor;
-
-  const color = "red";
-
-  const styleSheet = `:root { --background-color: ${backgroundColor}; }`;
+<script>
+  import { themeObj } from "$lib/stores";
 </script>
 
-<nav class="header" style={styleSheet}>
+<nav class="header">
   <a href="/" class="header__title">K-Sato</a>
   <ul class="header__links">
     <li class="header__links_item">
@@ -46,20 +13,16 @@
     </li>
 
     <li class="header__links_item">
-      {#if currentTheme === "DARK"}
-        <i class="gg-sun" />
+      {#if $themeObj.type === "DARK"}
+        <i class="gg-sun" on:click={themeObj.toBase} />
       {:else}
-        <i class="gg-moon" on:click={turnToDarkTheme} />
+        <i class="gg-moon" on:click={themeObj.toDark} />
       {/if}
     </li>
   </ul>
 </nav>
 
 <style>
-  :root {
-    --background-color: mainColor;
-    --main-color: backgroundColor;
-  }
   .header {
     height: 6rem;
     display: flex;
