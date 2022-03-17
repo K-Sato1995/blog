@@ -12,13 +12,13 @@
       <a href="/about" class="header__links__item__link">About</a>
     </li>
 
-    <li class="header__links_item">
+    <!-- <li class="header__links_item">
       {#if $themeObj.type === "DARK"}
         <i class="gg-sun" on:click={themeObj.toBase} />
       {:else}
         <i class="gg-moon" on:click={themeObj.toDark} />
       {/if}
-    </li>
+    </li> -->
   </ul>
 </nav>
 
