@@ -1,5 +1,5 @@
 <script>
-  import { themeObj } from "$lib/stores";
+  // import { themeObj } from "$lib/stores";
 </script>
 
 <nav class="header">
