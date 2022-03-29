@@ -15,17 +15,17 @@ I've been having a lot of free time lately for reasons I won't disclose here. An
 
 ## Background info
 
-I've been coding for the last 5 ~ 6 years or so according to my GitHub profile ,I know it's not that long, and been coding professionally for the last 4 years. To be honest, I consider myself very hard working and diligent. But I noticed that I kinda didn't code or study that much outside of my job for the last few months. And there was an event that made me question why I'm working as a software engineer and if this occupation is a good fit for me. So I tried to remember why I chose this career path.
+I've been coding for the last 5 ~ 6 years according to my GitHub profile ,I know it's not that long, and been coding professionally for the last 4 years. To be honest, I consider myself very hard working and diligent. But I noticed that I kinda didn't code or study that much outside of my job for the last few months. And there was an event that made me question why I'm working as a software engineer and if this occupation is actually a good fit for me. So I tried to remember why I chose this career path.
 
 ![200](https://user-images.githubusercontent.com/32632542/158554737-cecb172a-7f1e-4144-a452-c26fe60420c1.gif)
 
 
 ## Conclusion
 
-The conclusion I came to was that I actually like creating random stuff. But lately I've been so caught up with very complicated stuff like "algorithms", "performance", "best practices"....etc. Not saying I don't like the stuff. I actually love making web sites faster or making my code clear...etc. I was simply so caught up and coding kinda became something I didn't necessarily enjoy.
+The conclusion I came to was that I like creating random stuff. But lately I've been so caught up with very complicated stuff like "algorithms", "performance", "best practices"....etc. Not saying I don't like the stuff. I actually love making web sites faster or making my code cleaner...etc. I was simply so caught up with it and coding kinda became something I didn't necessarily enjoy.
 
-So I just started creating random stuff for myself without thinking too much about the values of the stuff, the performance or anything like that.
+So I just started creating random stuff for myself without thinking too much about the "complecated" stuff.
 
-This blog is one of those things I've recently created. It's not the fastest site in the world or best looking site in the world or anything. But it is something I like and something that represents myself. And ,most importantly, it is something I really enjoyed creating. While I was working on the stuff I've made lately, I just wanted to use all my time working on those things. That is true passion.
+This blog is one of those things I've recently created. It's not the fastest site in the world or best looking site in the world or anything. But it is something I personally like and something that represents myself. And ,most importantly, it is something I really enjoyed creating. While I was working on the things I've made lately, I just wanted to use all my time working on those things. And I think that is true passion.
 
-I am glad that I could remember the reason why I actually like what I do. I would like to keep coding and keep getting better. And hopefully I will  never forget why I like coding and feel passionate about it.
+I am glad that I could remember the reason why I like what I do. I would like to keep coding and keep getting better. And hopefully I will never forget why I like coding and always continue to feel passionate about it.
