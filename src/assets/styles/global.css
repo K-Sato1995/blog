@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: #000a13;
+  color: rgb(72, 132, 185);
 }
 
 h1, h2, h3, p, a {
@@ -66,4 +66,6 @@ ul {
 
 ul li {
   font-size: 1rem;
+  color: var(--main-color);
 }
+

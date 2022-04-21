@@ -94,7 +94,7 @@ table tr th :last-child, table tr td :last-child {
 
 .post-detail__content img {
   display: block;
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -104,9 +104,9 @@ code, tt {
   margin: 0 2px;
   padding: 0 5px;
   border: 1px solid #eaeaea;
-  background-color: #f6f8fa;
+  background-color: #EFF3F9;
   border-radius: 3px;
-  color: #FC929E;
+  color: #2C2D2E;
 }
 
 pre code {
