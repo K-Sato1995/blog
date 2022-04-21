@@ -14,7 +14,7 @@ tags: [baseball]
 The 2022 season has started a few weeks ago. As an Asian myself, it is very exciting for me to watch Asian players play in the big league. And there are two absolutely unbelievable Japanese players in MLB right now.
 
 The first player I want to mention here is the 2021 AL MVP and[Shohei Ohtani](https://www.mlb.com/player/shohei-ohtani-660271).
-And the second one is [Seiya Suzuki](https://www.mlb.com/player/seiya-suzuki-673548) who doesn't even have his face picture on his page([https://www.mlb.com/player/seiya-suzuki-673548](https://www.mlb.com/player/seiya-suzuki-673548))😅😅.
+And the second one is [Seiya Suzuki](https://www.mlb.com/player/seiya-suzuki-673548) who has just started his first season in MLB.
 
 ## Shohei Ohtani
 
@@ -43,7 +43,7 @@ As I said, he has only played in a few games but I'm already totally sold on thi
 If you are wondering what kind of person Seiya Suzuki is off the field, this video says about his personality more than I ever could.
 
 
-<iframe width="746" height="420" src="https://www.youtube.com/embed/j-Wf-jVSe6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/j-Wf-jVSe6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Reporter: “Is there any meaning behind choosing #27?”
 > Seiya Suzuki: “Mike Trout... I love you.” 
