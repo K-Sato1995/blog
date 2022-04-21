@@ -29,7 +29,7 @@ You can check out the stats and awards he received in the links below.
 
 Before I say anything about him, just check out his stats as of now (2022/04/21).
 
-| 2020 Regular Season | AB | R | H  | HR | RBI | AVG  | OPS   |
+| 2022 | AB | R | H  | HR | RBI | AVG  | OPS   |
 |---------------------|:--:|---|----|----|-----|------|-------|
 | Stats               | 31 | 9 | 12 | 4  | 11  | .387 | 1.404 |
 (This is his first season in MLB)
