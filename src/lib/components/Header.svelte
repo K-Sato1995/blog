@@ -65,7 +65,7 @@
   }
 
   /* ICON */
-  .gg-sun {
+  /* .gg-sun {
     color: var(--secondary-color);
     cursor: pointer;
     box-sizing: border-box;
@@ -131,5 +131,5 @@
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px;
-  }
+  } */
 </style>
