@@ -1,7 +1,7 @@
 <div class="post-list">
-	<slot />
+  <slot />
 </div>
 
 <style>
-	/* .post-list {} */
+  /* .post-list {} */
 </style>
