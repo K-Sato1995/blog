@@ -29,9 +29,10 @@ You can check out the stats and awards he received in the links below.
 
 Before I say anything about him, just check out his stats as of now (2022/04/21).
 
-| 2022 | AB | R | H  | HR | RBI | AVG  | OPS   |
-|---------------------|:--:|---|----|----|-----|------|-------|
-| Stats               | 31 | 9 | 12 | 4  | 11  | .387 | 1.404 |
+| 2022  | AB  | R   | H   | HR  | RBI | AVG  | OPS   |
+| ----- | :-: | --- | --- | --- | --- | ---- | ----- |
+| Stats | 31  | 9   | 12  | 4   | 11  | .387 | 1.404 |
+
 (This is his first season in MLB)
 
 His OPS is a staggering 1.404🤯🤯!! Granted, he has only played in 9 games and I'm sure his will go through difficult moments in the season and the stats will go down. But I honestly didn't expect him to start off the season so well. As stated above, this is the first season ever in MLB which is arguably by far the best baseball league in the world.
@@ -42,8 +43,7 @@ As I said, he has only played in a few games but I'm already totally sold on thi
 
 If you are wondering what kind of person Seiya Suzuki is off the field, this video says about his personality more than I ever could.
 
-
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/j-Wf-jVSe6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Reporter: “Is there any meaning behind choosing #27?”
-> Seiya Suzuki: “Mike Trout... I love you.” 
+> Seiya Suzuki: “Mike Trout... I love you.”

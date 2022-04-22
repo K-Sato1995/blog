@@ -19,7 +19,6 @@ I've been coding for the last 5 ~ 6 years according to my GitHub profile ,I know
 
 ![200](https://user-images.githubusercontent.com/32632542/158554737-cecb172a-7f1e-4144-a452-c26fe60420c1.gif)
 
-
 ## Conclusion
 
 The conclusion I came to was that I like creating random stuff. But lately I've been so caught up with very complicated stuff like "algorithms", "performance", "best practices"....etc. Not saying I don't like the stuff. I actually love making web sites faster or making my code cleaner...etc. I was simply so caught up with it and coding kinda became something I didn't necessarily enjoy.
