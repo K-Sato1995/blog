@@ -1,27 +1,23 @@
-import { envVariables } from "$lib/envVariables";
-import { getPosts } from '$lib/getPosts'
-
+import { envVariables } from '$lib/envVariables';
+import { getPosts } from '$lib/getPosts';
 
 export async function get() {
-  const response = await getPosts()
-  const body = sitemap(response.body.posts)
+	const response = await getPosts();
+	const body = sitemap(response.body.posts);
 
-  const headers = {
-    'Cache-Control': 'max-age=0, s-maxage=3600',
-    'Content-Type': 'application/xml',
-  }
-  return {
-    headers,
-    body,
-  }
+	const headers = {
+		'Cache-Control': 'max-age=0, s-maxage=3600',
+		'Content-Type': 'application/xml'
+	};
+	return {
+		headers,
+		body
+	};
 }
 
-const sitemap = posts => {
-  const otherPages = [
-    {path: 'about'},
-    {path: 'projects'}
-  ]
-  return  `<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (posts) => {
+	const otherPages = [{ path: 'about' }, { path: 'projects' }];
+	return `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
@@ -36,23 +32,26 @@ const sitemap = posts => {
     <priority>0.7</priority>
   </url>
   ${otherPages
-    .map(page =>`
+		.map(
+			(page) => `
   <url>
     <loc>${envVariables.basePath}/${page.path}</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   `
-    )
-    .join('')}
+		)
+		.join('')}
   ${posts
-    .map(post =>`
+		.map(
+			(post) => `
   <url>
     <loc>${envVariables.basePath}/blog/${post.slug}</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   `
-    )
-    .join('')}
-</urlset>`}
+		)
+		.join('')}
+</urlset>`;
+};

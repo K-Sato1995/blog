@@ -1,1 +1,1 @@
-export { themeObj } from '$lib/stores/themeStore'
+export { themeObj } from '$lib/stores/themeStore';
