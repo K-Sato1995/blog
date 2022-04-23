@@ -7,7 +7,6 @@
     TimelineConnector,
     TimelineContent,
     TimelineOppositeContent,
-    // @ts-ignore
   } from 'svelte-vertical-timeline'
 
   const options = [
@@ -20,7 +19,7 @@
 
 <Timeline
   position="alternate"
-  style={'border: solid 1px #dbdbdb; padding: 50px 0; border-radius: 2%;'}
+  style={'border: solid 1px #dbdbdb; border-radius: 2%;'}
 >
   {#each options as option}
     <TimelineItem>

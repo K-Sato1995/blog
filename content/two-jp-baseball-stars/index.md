@@ -13,7 +13,7 @@ tags: [baseball]
 
 The 2022 season has started a few weeks ago. As an Asian myself, it is very exciting for me to watch Asian players play in the big league. And there are two absolutely unbelievable Japanese players in MLB right now.
 
-The first player I want to mention here is the 2021 AL MVP and[Shohei Ohtani](https://www.mlb.com/player/shohei-ohtani-660271).
+The first player I want to mention here is the 2021 AL MVP [Shohei Ohtani](https://www.mlb.com/player/shohei-ohtani-660271).
 And the second one is [Seiya Suzuki](https://www.mlb.com/player/seiya-suzuki-673548) who has just started his first season in MLB.
 
 ## Shohei Ohtani
