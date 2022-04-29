@@ -20,7 +20,7 @@ And the second one is [Seiya Suzuki](https://www.mlb.com/player/seiya-suzuki-673
 
 I feel like there really is no need for me to talk about this guy. He is already very well known among baseball fans. It seems like he is struggling a bit this season but after all, this is the guy who, IMHO, had the best season of all time in the last season. So I'm sure he will do just fine as long as he stays healthy.
 
-You can check out the stats and awards he received in the links below.
+You can check out the stats and awards he received from the links below.
 
 - [stats on mlb.com](https://www.mlb.com/player/shohei-ohtani-660271)
 - [awards on mlb.com](https://www.mlb.com/player/shohei-ohtani-660271)
