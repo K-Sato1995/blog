@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store'
 
-type Theme = 'BASE' | 'DARK'
+type Theme = 'LIGHT' | 'DARK'
 
 interface ThemeObj {
   type: Theme
@@ -8,25 +8,25 @@ interface ThemeObj {
   backgroundColor: string
 }
 
-const baseTheme: ThemeObj = {
-  type: 'BASE',
+const lightTheme: ThemeObj = {
+  type: 'LIGHT',
   mainColor: '#333',
-  backgroundColor: '#fff;',
+  backgroundColor: '#fff',
 }
 
 const darkTheme: ThemeObj = {
   type: 'DARK',
   mainColor: '#fff',
-  backgroundColor: '#1e1e1e;',
+  backgroundColor: '#141318',
 }
 
 function createTheme() {
-  const { subscribe, update } = writable<ThemeObj>(baseTheme)
+  const { subscribe, update } = writable<ThemeObj>(darkTheme)
 
   return {
     subscribe,
     toDark: () => update(() => darkTheme),
-    toBase: () => update(() => baseTheme),
+    toLight: () => update(() => lightTheme),
   }
 }
 

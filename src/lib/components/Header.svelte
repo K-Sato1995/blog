@@ -1,7 +1,3 @@
-<script>
-  // import { themeObj } from "$lib/stores";
-</script>
-
 <nav class="header">
   <a href="/" class="header__title">K-Sato</a>
   <ul class="header__links">
@@ -11,14 +7,6 @@
     <li class="header__links_item">
       <a href="/about" class="header__links__item__link">About</a>
     </li>
-
-    <!-- <li class="header__links_item">
-      {#if $themeObj.type === "DARK"}
-        <i class="gg-sun" on:click={themeObj.toBase} />
-      {:else}
-        <i class="gg-moon" on:click={themeObj.toDark} />
-      {/if}
-    </li> -->
   </ul>
 </nav>
 
@@ -65,7 +53,7 @@
   }
 
   /* ICON */
-  /* .gg-sun {
+  .gg-sun {
     color: var(--secondary-color);
     cursor: pointer;
     box-sizing: border-box;
@@ -88,7 +76,7 @@
   }
   .gg-sun::after,
   .gg-sun::before {
-    content: "";
+    content: '';
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -123,7 +111,7 @@
     border-bottom-color: transparent;
   }
   .gg-moon::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 12px;
     height: 18px;
@@ -131,5 +119,5 @@
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px;
-  } */
+  }
 </style>
