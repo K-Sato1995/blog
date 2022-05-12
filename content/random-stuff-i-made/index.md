@@ -82,6 +82,8 @@ A PWA app for keeping track of my spending made with Next.js and Firebase.
 
 ## Published an online Svelte book
 
+Wrote a very rudimentary svelte online book.
+
 ![image](https://user-images.githubusercontent.com/32632542/167320721-a9b1dfd5-8127-440e-8368-5f2fde232a2a.png)
 
 - [Link](https://zenn.dev/k_sato/books/b868c1705b8337)
