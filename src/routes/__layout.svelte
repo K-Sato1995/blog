@@ -4,6 +4,16 @@
   import Container from '$lib/components/Container.svelte'
   import Content from '$lib/components/Content.svelte'
   import Footer from '$lib/components/Footer.svelte'
+  import { onMount } from 'svelte'
+  import {getLCP, getFID, getCLS} from 'web-vitals';
+      
+  onMount(() => {
+      console.log(document.URL)
+      getCLS(console.log);
+      getFID(console.log);
+      getLCP(console.log);
+      
+	});
 </script>
 
 <Container>
