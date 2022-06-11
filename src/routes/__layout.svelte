@@ -22,7 +22,6 @@
 
   onMount(() => {
     if (process.env.NODE_ENV === 'production') {
-      console.log(document.URL)
       getCLS(reportToFB)
       getFID(reportToFB)
       getLCP(reportToFB)
