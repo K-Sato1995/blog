@@ -5,15 +5,31 @@
   import Content from '$lib/components/Content.svelte'
   import Footer from '$lib/components/Footer.svelte'
   import { onMount } from 'svelte'
-  import {getLCP, getFID, getCLS} from 'web-vitals';
-      
+  import { getLCP, getFID, getCLS, getTTFB, getFCP } from 'web-vitals'
+  import { db } from '$lib/firebaseBase'
+  import { addDoc, collection } from 'firebase/firestore'
+
+  const reportToFB = ({ name, delta, id }) => {
+    try {
+      addDoc(collection(db, name), {
+        value: delta,
+        born: id
+      });
+    } catch (e) {
+      console.error('Failed to report to FB', e)
+    }
+  }
+
   onMount(() => {
+    if (process.env.NODE_ENV === 'production') {
       console.log(document.URL)
-      getCLS(console.log);
-      getFID(console.log);
-      getLCP(console.log);
-      
-	});
+      getCLS(reportToFB)
+      getFID(reportToFB)
+      getLCP(reportToFB)
+      // getTTFB(reportToFB);
+      // getFCP(reportToFB);
+    }
+  })
 </script>
 
 <Container>
