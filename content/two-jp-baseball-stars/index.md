@@ -27,7 +27,7 @@ You can check out the stats and awards he received from the links below.
 
 ## Seiya Suzuki
 
-Before I say anything about him, just check out his stats as of  2022/04/21.
+Before I say anything about him, just check out his stats as of 2022/04/21.
 
 | 2022  | AB  | R   | H   | HR  | RBI | AVG  | OPS   |
 | ----- | :-: | --- | --- | --- | --- | ---- | ----- |
