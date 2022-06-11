@@ -9,10 +9,10 @@
   import { db } from '$lib/firebaseBase'
   import { addDoc, collection } from 'firebase/firestore'
 
-  const reportToFB = ({ name, value, id }) => {
+  const reportToFB = ({ name, delta, id }) => {
     try {
       addDoc(collection(db, name), {
-        value: value,
+        value: delta,
         born: id,
       })
     } catch (e) {

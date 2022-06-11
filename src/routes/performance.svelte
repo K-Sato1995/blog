@@ -43,14 +43,15 @@
   // Fetch metrics
   getMetric('CLS').then((clsData) => {
     cslValue = parseFloat(calculateMetric(clsData).toFixed(2))
+
   })
 
   getMetric('LCP').then((lcpData) => {
-    lcpValue = parseFloat((calculateMetric(lcpData) / 100).toFixed(2))
+    lcpValue = parseFloat((calculateMetric(lcpData) / 1000).toFixed(2))
   })
 
   getMetric('FID').then((fidData) => {
-    fidValue = parseFloat((calculateMetric(fidData) / 100).toFixed(2))
+    fidValue = parseFloat((calculateMetric(fidData) / 1000).toFixed(2))
   })
 
   const meta = {
