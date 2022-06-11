@@ -9,12 +9,12 @@
   import { db } from '$lib/firebaseBase'
   import { addDoc, collection } from 'firebase/firestore'
 
-  const reportToFB = ({ name, delta, id }) => {
+  const reportToFB = ({ name, value, id }) => {
     try {
       addDoc(collection(db, name), {
-        value: delta,
-        born: id
-      });
+        value: value,
+        born: id,
+      })
     } catch (e) {
       console.error('Failed to report to FB', e)
     }
